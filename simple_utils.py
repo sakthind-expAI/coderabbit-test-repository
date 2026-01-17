@@ -2,6 +2,7 @@
 
 def reverse_string(text):
     """Reverses the characters in a string"""
+    print(text[::-1])
     return text[::-1]
 
 def count_words(sentence):
@@ -15,6 +16,9 @@ def count_words(sentence):
         int: Number of words, defined as segments separated by whitespace.
     """
     return len(sentence.split())
+
+def str_count(string):
+    return len(string)
 
 def celsius_to_fahrenheit(celsius):
     return (celsius * 9/5) + 32
