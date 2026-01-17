@@ -2,10 +2,14 @@
 
 def reverse_string(text):
     """Reverses the characters in a string"""
+    print(text[::-1])
     return text[::-1]
 
 def count_words(sentence):
     return len(sentence.split())
+
+def str_count(string):
+    return len(string)
 
 def celsius_to_fahrenheit(celsius):
     return (celsius * 9/5) + 32
